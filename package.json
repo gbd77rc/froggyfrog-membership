@@ -1,0 +1,14 @@
+{
+  "name": "froggyfrog",
+  "author": "Richard Clarke",
+  "description": "A membership system patterned after Devise",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "mocha": "~1.12.1",
+    "should": "^4.3.0"
+  }
+}
