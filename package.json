@@ -1,5 +1,5 @@
 {
-  "name": "froggyfrog",
+  "name": "froggyfrog-membership",
   "author": "Richard Clarke",
   "description": "A membership system patterned after Devise",
   "version": "0.0.1",
