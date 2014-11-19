@@ -91,6 +91,8 @@ var Registration = function(db) {
         regResult.message = "Welcome!";
         regResult.user = app.user;
         regResult.log = app.log;
+        self.emit("registered", regResult);
+
         if(continueWith){
             continueWith(null,regResult);
         }
@@ -100,6 +102,8 @@ var Registration = function(db) {
         var regResult = new RegResult();
         regResult.success = false;
         regResult.message = app.message;
+        self.emit("not-registered", regResult);
+
         if(continueWith){
             continueWith(null,regResult);
         }

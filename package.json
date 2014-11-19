@@ -1,8 +1,8 @@
 {
-  "name": "froggyfrog-membership",
+  "name": "membership",
   "author": "Richard Clarke",
   "description": "A membership system patterned after Devise",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "secondthought": "0.0.4"
