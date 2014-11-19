@@ -3,7 +3,10 @@
   "author": "Richard Clarke",
   "description": "A membership system patterned after Devise",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "secondthought": "0.0.4"
+  },
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-jshint": "*",
